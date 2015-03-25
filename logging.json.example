@@ -1,0 +1,14 @@
+{
+    "appenders": [{
+        "type": "dateFile",
+        "filename": "../logs/app.log",
+        "pattern": "-yyyy-MM-dd.log",
+        "alwaysIncludePattern": false
+    }, {
+        "type": "logLevelFilter",
+        "level": "TRACE",
+        "appender": {
+            "type": "console"
+        }
+    }]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "bts-logging",
+  "version": "0.0.1",
+  "description": "Very simple logger factory based on log4js",
+  "main": "logging.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "logging",
+    "log4js"
+  ],
+  "author": "emertechie@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^2.1.3",
+    "log4js": "^0.6.22"
+  }
+}
