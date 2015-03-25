@@ -1,6 +1,6 @@
 {
   "name": "bts-logging",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Very simple logger factory based on log4js",
   "main": "logging.js",
   "scripts": {
