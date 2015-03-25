@@ -19,7 +19,7 @@ Supports a global log level set via environment variable (to override the defaul
 
 Define a `logging.js` file in your application project as follows:
  
-```
+```js
 module.exports = require('bts-logging')(__dirname, {
     logCfgFile: '../config/logging.json',
     logFilesDir: '../logs'
@@ -34,7 +34,7 @@ Log4js documenation is [here](https://github.com/nomiddlename/log4js-node).
 
 # Usage
 
-```
+```js
 var logging = require('./logging');                            // Path to your logging.js file as described above
 
 var logger = logging.createLogger('foo');                      // Use default log level of 'INFO'
