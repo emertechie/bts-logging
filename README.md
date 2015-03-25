@@ -29,7 +29,7 @@ module.exports = require('bts-logging')(__dirname, {
 
 Adjust paths to configuration file and log directory as appropriate obviously.
 
-A sample [logging.json](logging.json) file is provided in this project. Copy to your own application and adjust as necessary.
+A sample [logging.json](logging.json.example) file is provided in this project. Copy to your own application and adjust as necessary.
 Log4js documenation is [here](https://github.com/nomiddlename/log4js-node). 
 
 # Usage
